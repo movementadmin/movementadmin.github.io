@@ -231,6 +231,9 @@ h3 {
 .qrcdesc1 {
 display: flex; flex-direction: row; align-items: center; justify-content: center;
 }
+.qrcdesc4 {
+display: flex; flex-direction: row; align-items: center; justify-content: center;text-align: center;
+}
 
 h2.qrcdesc1,
 p.qrcdesc1 {
@@ -263,4 +266,8 @@ p.qrcdesc1 {
 margin-top: 50px;
 padding: 20px;
 border-top: 1px solid #5d5d5d;
+}
+
+.supportpage1 {
+padding: 20px;
 }
