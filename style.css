@@ -122,6 +122,12 @@ h3 {
     padding: 60px;
 }
 
+.sectionleft {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 20px;
+}
 .textcontent {
     max-width: 700px;
 }
@@ -207,9 +213,54 @@ h3 {
 
 .sideimage2 {
     width: 1000px;
+    max-width: 100%;
     height: auto;
 
     border-radius: 15px;
 
     object-fit: cover;
+}
+.sideimage3 {
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.qrcdesc1 {
+display: flex; flex-direction: row; align-items: center; justify-content: center;
+}
+
+h2.qrcdesc1,
+p.qrcdesc1 {
+    text-align: center;
+}
+
+.diagram-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.whychoose {
+    clear: both;
+    text-align: center;
+    width: 100%;
+}
+
+.sideimage67 {
+    width: 1000px;
+    max-width: 100%;
+    height: auto;
+
+    border-radius: 15px;
+
+    object-fit: cover;
+    border: 1px solid #5d5d5d;
+}
+
+.footerqrc {
+margin-top: 50px;
+padding: 20px;
+border-top: 1px solid #5d5d5d;
 }

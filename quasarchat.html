@@ -4,7 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quasar Chat</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+  <header class="navbar">
+
+        <nav class="linksnav">
+
+            <img src="quasarlogomark.png"
+                 alt="logo of QUASAR Systems"
+                 class="logo">
+
+            <div class="navlinks">
+
+    <a href="website.html" class="navlink">Home</a>
+
+    <div class="dropdown">
+
+        <button class="dropbtn">
+            Products
+        </button>
+
+        <div class="dropdowncontent">
+
+            <a href="quasarchat.html">
+                QUASAR Chat
+            </a>
+
+            <a href="quasarqicp.html">
+                QUASAR Qicp
+            </a>
+
+            <a href="quasaramcs.html">
+                QUASAR AMCS
+            </a>
+
+        </div>
+
+    </div>
+
+    <a href="about.html" class="navlink">About us</a>
+
+    <a href="support.html" class="navlink">Support</a>
+
+    <div class="dropdown">
+
+        <button class="dropbtn">
+            More...
+        </button>
+
+        <div class="dropdowncontent">
+
+            <a href="#">
+                Placeholder!
+            </a>
+
+            <a href="#">
+               Placeholder!
+            </a>
+
+        </div>
+
+</div>
+
+        </nav>
+
+    </header>
+
+    <section>
+        <div>
+
+            <h1  class="qrcdesc1" style="color: rgb(128, 0, 128);">
+                QUASAR Chat
+            </h1>
+
+            <p class="qrcdesc1">
+            QUASAR Chat is a revolutionary Discord message relay system utilising efficient architecture to facilitate messange exchange between Discord servers.
+            </p>
+        </div>
+        <div>
+           <h2 class="qrcdesc1">
+            Key Features
+           </h2>
+           <p class="qrcdesc1">
+            - Seamless Message Relay: Effortlessly relay messages between Discord servers, ensuring smooth communication across communities.
+            <br>
+            - Efficient Architecture: Built on the native Discord webhook system, QUASAR Chat is able to relay messages between servers in miliseconds.
+            <br>
+            - User-Friendly Interface: Intuitive interface design allows users to easily set up and manage their message relay configurations.
+            <br>
+            - Privacy First Design: Utilising the 3WE encryption stamdard. messages and user data are protected with multi-layer end-to-end encryption.
+           </p>
+        </div>
+    </section>
+    <section class="aboutsection">
+        <div class="textcontent">
+<h2 class="qrcdesc1">Technical Explanation</h2>
+<p class="qrcdesc1"> QUASAR Chat utilises a central exchange server, similar to a PBX. A bot scans all messages in a server it is installed, and when an authorised role sends a message with a valid tag, it gets routed to the Central Exchange Server. The Central Exchange Server pulls its data from a dictionary file, similar to a phonebook. </p>
+<br>
+<p class="qrcdesc1"> The Phonebook file, internally known as webhooks.json sorts all information per server. This file is encrypted, and as such in the event of data theft, the thief will not have anything useful left. The data is entered by high-level QUASSAR administrators, and is deleted from the Discord enviorenment after it is entered.  </p>
+<br>
+<p class="qrcdesc1"> The Central Exchange Server is responsible for routing the messages, censoring them, preventing flooding, DDoS attacks and other platform abuse. It's the brain of the program. </p>
+</div>
+   <div class="diagram-container">
+    <img src="quasarchatdiagram.png"
+         alt="Diagram of QUASAR Chat's architecture"
+         class="sideimage67">
+</div>
+</section>
+<section>
+<div class="whychoose">
+    <h2 class="qrcdesc1">Why choose QUASAR Chat?</h2>
+    <p class="qrcdesc1"> - Instant Message Relay: Using the high-speed and efficient systemts outlined above, we can deliver messages within milliseconds. </p>
+    <br>
+    <p class="qrcdesc1"> - Privacy and Security: With our 3WE encryption standard, we ensure that all messages and user data are protected with multi-layer end-to-end encryption, giving you peace of mind. </p>
+    <br>
+    <p class="qrcdesc1"> - Ease of use: Our user-friendly usage allows everyone to be able to start using our product instantly, with no technical knowledge required. </p>
+    <br>
+    <p class="qrcdesc1"> - Dedicated Support: Our team of experts is always ready to assist you with any questions or issues you may encounter, ensuring a smooth experience. </p>
+</div>
+</section>
+<section>
+    <div class="footerqrc"></div>
+    <p class="qrcdesc1"> Have any questions about how QUASAR Chat Works?</p>
+    <a href="support.html" class="learnmore">
+       <p class="qrcdesc1"> Contact our support team! </p>
+    </a>
+    <p class="qrcdesc1"> Interested in implementing QUASAR Chat in your community?</p>
+    <a href="website.html" class="learnmore">
+       <p class="qrcdesc1"> Contact sales today! </p>
+    </a>
+</div>
+</section>
 <body>
 </body>
 </html>
